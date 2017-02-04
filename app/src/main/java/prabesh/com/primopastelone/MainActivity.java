@@ -141,6 +141,8 @@ Intent intent=new Intent(MainActivity.this,ChatActivity.class);
         if (id == R.id.nav_home) {
             // Handle the camera action
         } else if (id == R.id.nav_map) {
+            Intent intent=new Intent(MainActivity.this,Map.class);
+            startActivity(intent);
 
         } else if (id == R.id.nav_order) {
             Intent intent=new Intent(MainActivity.this,CakeList.class);
@@ -149,6 +151,8 @@ Intent intent=new Intent(MainActivity.this,ChatActivity.class);
         } else if (id == R.id.shops) {
 
         } else if (id == R.id.messaging) {
+            Intent intent=new Intent(MainActivity.this,ChatActivity.class);
+            startActivity(intent);
 
         } else if (id == R.id.about) {
 
